@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let ENG = ["hello", "goodbye", "thank you", "sorry", "yes", "no"];
+        let VN = ["xin chào", "tạm biệt", "cảm ơn", "xin lỗi", "có", "không"];
+        let input = prompt("Viết tiếng Anh vào đây:");
+        let index = ENG.indexOf(input);
+        if (index != -1) {
+            alert("Tiếng việt sẽ viết là: " + VN[index]);
+        } else {
+            alert("Bạn nói tiếng gì vậy.");
+        }
+    </script>
+</body>
+
+</html>
